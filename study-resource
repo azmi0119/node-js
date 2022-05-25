@@ -1,0 +1,116 @@
+1. How to show databases
+How to create database and delete databases
+How create collection and documentation
+How to show collections
+How to show documents
+
+create database - use collage
+check currect database - db
+
+Note - If you have create database then you have minimun one collection and inside collection minimum one documentation 
+
+Display collection - show collections
+Display documents inside collection - db.collectionName.find().pretty()
+
+Delete database - db.dropDatabase()
+Note - Insure that you have to use database that you have want to delete database;
+
+create collection
+	db.CollectionName.insertOne(colName:Value,....);
+
+create multiple recode at a time 
+     db.students.insertMany([{address:"Delhi",pin:12345}, {state:"Uttar Prades"}])
+
+How read perticular data - db.collection.find(query, projection)
+
+
+1. Find all results to collection.
+2. Show restult in pretty formate
+3. Show perticular document
+4. Show perticular field in one document without ID
+5. Set the query to "fees:true" and get only one document
+7. Please use another method for 6 question and get result
+8. Apply on 6 question and skip 1 document and get next result
+
+
+
+
+
+Update 
+--------
+updateOne() - db.CollectionName.updateOne(<filter>, <update>)
+updateMany() - db.CollectionName.updateMany(<filter>, <update>)
+
+
+$set operator is used to replace the value of a field with the specified value
+
+1. How to update one particular field in one document
+	db.students.updateOne({name:"abdullah"}, {$set:{name:"Sheikh Abdullah"}})
+2. How to update one particular field in two or more document
+3. How to update more than one field in one record
+4. How update more than one field in two or more documents.
+
+
+
+Delete 
+ 1. How to delete one document using filter
+ 2. How to delete one document without using filter
+ 3. How to delete multiple document.
+ 4. How to delete multiple document without using filter.
+ 
+
+
+
+ // scop variable, function, etc 
+
+// export - A reference to the module.export that is shorter to type.
+
+// require - Use to impor module in your file
+
+// module - A reference to the current module
+
+// __dirname - The diretory name of the current module. This is the sam as the path.direname() of the __filename
+
+// __filename - The file name of the current module. This is the current module file's absolute path with symlinks resove.
+// Ex- console.log(__fileanme);
+
+// Paht Module
+// 1. The path module provides utitlites for working with file and directory paths. It can be accessed using:
+
+// Ex- const path = require('path');
+
+
+// basename() -> The basename() method returns the last portion of a path, similar to the unix basename command. Trailing directory separators are ignored
+
+// Syntax - basename(path[, ext])
+// ex- basename('/test/file.html', '.html');
+
+// extname() - The extname() method return the extension of the path, from the last occurrence of the. (period) charactor to end of string in the last portion of the path. If there is no. in the last portion of the path, or if there are no. charactor other than the first character of the basename of th path, an empty string is returned.
+
+// syntax - extname(path)
+// ex- extname(index.html);
+
+
+// join() - The join() method joins all given path segments together using the platform-specific separator as a delimiter, then normalizes the resulting path.
+
+// Zero-length path segments are ignored. If the joined path string is a zero-length string then '.' will be returned representing the current working directory. 
+
+
+// nomalize() -
+// parse() -
+// is Absolute() -
+
+// https://www.youtube.com/watch?v=zYbKnXCxHfM&list=PLQDioScEMUhkcqbgJ4ap2k4zg3sT_-Bbc     mongodb
+// https://www.youtube.com/watch?v=GPNGpYMlBd0&list=PLQDioScEMUhlHvMPOIGMQ2wwmpL0cCzNA     API
+// https://www.youtube.com/watch?v=W1Kttu53qTg crud
+// https://www.youtube.com/watch?v=h8yNJjwijjI&list=PLgWjD_CBfh0ACkCyg5Kjk0mh2Mcc-sZa3     API 
+// https://youtu.be/WfCJ3sHnLBM                                                      API 
+// https://www.youtube.com/watch?v=u2lP7u5d8uw&list=PLgOUQYMnO_SRqPikOJBu5G1ld4bJUZCmy     NodeJs
+
+// https://youtu.be/2pn2Bspt6EM    Auth
+
+
+
+
+// Collection -> Documents -> fields
+
