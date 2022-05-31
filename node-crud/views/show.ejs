@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Show List</title>
+</head>
+<body>
+
+	<table border="1px">
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Password</th>
+		</tr>
+		<% users.forEach(function(user) { %>
+		<tr>
+			<td><%=user.name %></td>
+			<td><%=user.email %></td>
+			<td><%=user.password %></td>
+		</tr>
+		<% }) %>
+	</table>
+
+</body>
+</html>

@@ -32,6 +32,13 @@ app.post("/insert", function(req, res) {
 	})
 })
 
+// Fetch data form database
+app.get('/show', function(req, res) {
+	User.find({}, function(err, result) {
+		res.render("show", {users:result});
+	})
+})
+
 app.listen(8000, function() {
 	console.log("Server started on 8000");
 });
