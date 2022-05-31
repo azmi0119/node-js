@@ -39,6 +39,11 @@ app.get('/show', function(req, res) {
 	})
 })
 
+app.get('/delete/:id', async function(req, res) {
+	await User.findByIdAndDelete(req.params.id);
+	res.redirect('/show');
+})
+
 app.listen(8000, function() {
 	console.log("Server started on 8000");
 });
