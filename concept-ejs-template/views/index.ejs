@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+</head>
+<body>
+	<center>
+		<h1>Welcome to EJS Templates</h1>
+		<!-- Displaying variable on EJS template -->
+		Hi <%= name %>
+
+		<!-- Create variable on EJS Template -->
+		<% var varDeclaration = "Variable declared on EJS Templates " %>
+		<br>
+
+		<!-- Displaying variable on EJS template -->
+		<%= varDeclaration %>
+
+		<!-- How to declared comments -->
+		<%# You know that comment will not displayed on render HTML %>
+		<br>
+
+		<!-- How to write if conditinal statement on EJS Template -->
+		<% if(name) { %>
+			<h4>Welcome <%= name %> inside if conditional statement</h4>
+		<% } %>
+
+	</center>
+</body>
+</html>
