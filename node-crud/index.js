@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var User = require('./models/index.js');
 var bodyParser = require("body-parser");
 
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({extended:true})); 
 app.use(bodyParser.json());
 
 
@@ -15,7 +15,7 @@ connection.once('open', function() {
 	console.log("Connection successfylly done ...");
 });
 
-app.set('view engine' , 'ejs');
+app.set('view engine' , 'ejs'); 
 
 app.get("/", function(req, res) {
 	res.render("insert");

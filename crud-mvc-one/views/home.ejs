@@ -1,0 +1,31 @@
+<%- include('common/header.ejs') -%>
+<br><br><br>
+<table class="rwd-table">
+  <tbody>
+    <a href="/register" class="btn btn-primary">Add User</a>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Number</th>
+      <th>Password</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+    <% data.forEach(function(item){ %>
+    <tr>
+      <td data-th="Supplier Code"><%= item.name%></td>
+      <td data-th="Supplier Name"><%= item.email%></td>
+      <td data-th="Invoice Number"><%= item.phone%></td>
+      <td data-th="Invoice Date"><%= item.password%></td>
+      <td data-th="Invoice Date">
+        <a href="<%=`/edit/${item._id}`%>" class="btn btn-primary">Edit</a>
+      </td>
+      <td data-th="Invoice Date">
+        <a href="" class="btn btn-danger">Delete</a>
+      </td>
+
+    </tr>
+     <% }) %>
+  </tbody>
+</table>
+<%- include('common/footer.ejs') -%>
