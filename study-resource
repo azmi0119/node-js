@@ -33,7 +33,7 @@ How read perticular data - db.collection.find(query, projection)
 8. Apply on 6 question and skip 1 document and get next result
 
 
-
+ 
 
 
 Update 
@@ -106,10 +106,10 @@ Delete
 // https://www.youtube.com/watch?v=h8yNJjwijjI&list=PLgWjD_CBfh0ACkCyg5Kjk0mh2Mcc-sZa3              API 
 // https://youtu.be/WfCJ3sHnLBM                                                                     API 
 // https://www.youtube.com/watch?v=r95jTXNxkcI&list=PLgOUQYMnO_SRqPikOJBu5G1ld4bJUZCmy&index=5      NodeJs
-// https://www.youtube.com/watch?v=TwKDW--CgR0   Small Project
-// https://youtu.be/l8aGNhOD91k                     Multi image uloader project
-// https://youtu.be/6FOq4cUdH8k                     Node.js With Passport Authentication | Full Project
-// https://youtu.be/2pn2Bspt6EM    Auth
+// https://www.youtube.com/watch?v=TwKDW--CgR0                                                      Small Project
+// https://youtu.be/l8aGNhOD91k                                                                     Multi image uloader project
+// https://youtu.be/6FOq4cUdH8k                                                                Node.js With Passport Authentication | Full Project
+// https://youtu.be/2pn2Bspt6EM                                                                     Auth
 
 
 
