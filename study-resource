@@ -23,7 +23,6 @@ create multiple recode at a time
 
 How read perticular data - db.collection.find(query, projection)
 
-
 1. Find all results to collection.
 2. Show restult in pretty formate
 3. Show perticular document
