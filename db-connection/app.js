@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 // mongoose.connect('mongodb://localhost:27017/test').then( ()=> {
 // 	console.log('Database connected successfully !!')
-// });
+// }); 
 
 // import db from db/connectiondb.js file 
 const connectionDB = require('./db/connectiondb.js')
@@ -18,4 +18,4 @@ connectionDB(DATABASE_URL)
 
 app.listen(8000, ()=> {
 	console.log('Server has started !!')
-})
+}) 

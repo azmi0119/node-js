@@ -1,9 +1,9 @@
 // import model 
 var User = require('../models/User.js');
-
+ 
 var bodyParser = require("body-parser");
 
-const userList = (req, res) => {
+const userList = (req, res) => { 
 
 	User.find((err, docs) => {
         if (!err) {

@@ -1,12 +1,12 @@
 const mongoose = require('mongoose')
 
-// Type - 1
+// Type - 1 
 
 // const connectionDB = ()=> {
 // 	mongoose.connect('mongodb://localhost:27017/test').then( ()=> {
 // 		console.log('Database Connection successfully !!')
 // 	}).catch( (err) => {
-// 		console.log(err)
+// 		console.log(err) 
 // 	})
 // }
 
